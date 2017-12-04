@@ -1,0 +1,40 @@
+{
+  "name": "most-mutation",
+  "version": "0.0.1",
+  "description": "Event Stream from Mutation Observer",
+  "main": "dist/most-mutation.cjs.js",
+  "module": "dist/most-mutation.esm.js",
+  "browser": "dist/most-mutation.umd.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galileopy/most-mutation.git"
+  },
+  "keywords": [
+    "most",
+    "mutation-observer",
+    "mutation",
+    "observer",
+    "event-stream"
+  ],
+  "author": "Galileo Sanchez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/galileopy/most-mutation/issues"
+  },
+  "homepage": "https://github.com/galileopy/most-mutation#readme",
+  "dependencies": {
+    "most": "^1.7.2"
+  },
+  "devDependencies": {
+    "rollup": "^0.52.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "files":[
+    "dist"
+  ]
+}
